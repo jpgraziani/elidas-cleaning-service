@@ -4,9 +4,9 @@ import { StaticImage } from 'gatsby-plugin-image'
 const CleaningService = () => {
   return (
     <section className='bg-darkTan  text-primary'>
-      <div className='py-14 px-5 '>
-        <h2 className='text-2xl'>Why Elida's cleaning service?</h2>
-        <ul className='text-base'>
+      <div className='container'>
+        <h2 className='h2-title mb-3'>Why Elida's cleaning service?</h2>
+        <ul className='p-text'>
           <li>Celiac tousled irony 8-bit</li>
           <li>I'm baby master cleanse </li>
           <li>Cred shaman fanny pack</li>
@@ -14,7 +14,7 @@ const CleaningService = () => {
           <li>cronut truffaut four </li>
         </ul>
         <div className='mt-8'>
-          <a className='p-3 border-2' href="tel:425.244.5326">Book Cleaning</a>
+          <a className='btn' href="tel:425.244.5326">Book Cleaning</a>
         </div>
       </div>
     

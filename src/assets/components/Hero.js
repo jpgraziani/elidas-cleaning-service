@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const Hero = () => {
   return (
     <section className='bg-tan text-primary'>
-      <div className='py-14 px-5'>
+      <div className='container'>
         <h2 className='h2-title mb-3'>Residental & Commerical Claning Services in Tucson</h2>
         <p className='p-text'>Locally owned and operated for over 25 years. Customers benefit from staffing continuity that reinforces residential knowledge and confidence.</p>
         <div className='mt-8'>
