@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         primary: '#061D3F',
         secondary: '#C0D2DE',
-        tan: '#FSEAE3',
+        tan: '#F9F1E9',
         darkTan: '#ECCFB7',
       },
       backgroundImage: {
