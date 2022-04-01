@@ -14,3 +14,7 @@
 .btn {
   @apply py-3 px-6 border-2 border-primary rounded-full
 }
+
+.container {
+  @apply py-14 px-5
+}
