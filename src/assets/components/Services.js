@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <section className='bg-primary text-white py-14 px-5'>
        <div className=''>
-        <h2 className='text-2xl'>Weekly and Bi-weekly Cleaning Services</h2>
+        <h2 className='h2-title'>Weekly and Bi-weekly Cleaning Services</h2>
       </div>
       <section>
         <article>
