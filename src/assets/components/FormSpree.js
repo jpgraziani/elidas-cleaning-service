@@ -26,7 +26,7 @@ function MessageForm() {
       <form onSubmit={handleSubmit} 
         className='bg-indigo-50 flex flex-col pb-4 items-center'>
           <h2>SEND US A MESSAGE</h2>
-        <section className='flex flex-col p-6 w-screen'>
+        <section className='flex flex-col container w-screen'>
           <label 
             className=''
             htmlFor="email" 

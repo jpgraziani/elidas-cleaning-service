@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const CleaningService = () => {
   return (
     <section className='bg-darkTan  text-primary'>
-      <div className='py-14 px-5 '>
+      <div className='container'>
         <h2 className='h2-title mb-3'>Why Elida's cleaning service?</h2>
         <ul className='p-text'>
           <li>Celiac tousled irony 8-bit</li>
