@@ -2,7 +2,9 @@ import React from 'react'
 
 const Marquee = () => {
   return (
-    <div className='bg-green-400 overflow-hidden'>Operated for over 25 years    Operated for over 25 years</div>
+    <div id='scroll-container' className='bg-primary text-white'>
+      <span id='scroll-text'>operated for over 25 years</span>
+    </div>
   )
 }
 
