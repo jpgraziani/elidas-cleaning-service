@@ -1,18 +1,27 @@
 import React from 'react'
 import blogImg from '../images/cdc-VRpjDw3WqqI-unsplash.jpg'
+import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
 const Blog = () => {
   return (
-    <section className='bg-dots-pattern dots-pattern bg-repeat bg-contain'>
-      <div className='flex flex-col content-center p-4 bg-white'>
-        <h2 className='text-2xl '>Check out our blog, Rinse and Repeat</h2>
-        <article className='border-2 border-black'>
+    <section className='bg-dots-pattern dots-pattern bg-repeat bg-contain bg-tan'>
+      <div className='flex flex-col content-center container'>
+        <h2 className='h2-title'>Check out our blog, Rinse and Repeat</h2>
+        <article className='my-6 bg-secondary'>
         <img src={blogImg} alt='blog post image' />
-        <header>Title here</header>
-        <p>Mumblecore 90's enamel pin deep v irony try-hard slow-carb adaptogen. Butcher irony cred, thundercats flannel hexagon drinking vinegar.
-      </p>
+        <div className='container'>
+          <header className='text-2xl font-sans font-bold'>Title here</header>
+          <p className='p-text'>Mumblecore 90's enamel pin deep v irony try-hard slow-carb adaptogen. Butcher irony cred, thundercats flannel hexagon drinking vinegar.
+          </p>
+          <p>Read More</p>
+        </div>
+        
         </article>
-        <div><span>[  ]</span><span>[  ]</span></div>
+        <div className='flex'>
+        <FaArrowAltCircleLeft className='text-3xl text-primary' />
+        <FaArrowAltCircleRight className='ml-3 text-3xl text-primary' />
+        
+        </div>
       </div>
      
      
