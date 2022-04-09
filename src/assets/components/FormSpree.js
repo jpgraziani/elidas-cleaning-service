@@ -6,16 +6,16 @@ function MessageForm() {
   const [state, handleSubmit] = useForm("mnqwqyap");
   if (state.succeeded) {
       return (
-        <section className='grid-cols-1'>
+        <section className='flex'>
           <p className='form-sent-response section-sub-title'>Thank you for contacting us!</p>
         </section>
       );
   }
   return (
       <form onSubmit={handleSubmit} 
-        className='bg-indigo-50 flex flex-col items-center container'>
+        className='bg-indigo-50 flex flex-col items-center container w-screen'>
           <h2 className='h2-title text-primary'>How can we help?</h2>
-        <section className='flex flex-col w-screen container'>
+        <section className='flex flex-col container'>
           <label 
             className=''
             htmlFor="email" 

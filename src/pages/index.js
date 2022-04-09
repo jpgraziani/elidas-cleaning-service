@@ -10,7 +10,7 @@ import Blog from '../assets/components/Blog';
 export default function Home() {
   return (
     <Layout>
-      <main className=''>
+      <main>
          <Hero />
          <Marquee />
          <CleaningService />

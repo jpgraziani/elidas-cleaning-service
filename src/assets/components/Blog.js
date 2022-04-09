@@ -10,10 +10,10 @@ const Blog = () => {
         <article className='my-6 bg-secondary'>
         <img src={blogImg} alt='blog post image' />
         <div className='container'>
-          <header className='text-2xl font-sans font-bold'>Title here</header>
+          <header className='text-2xl font-sans font-bold'>Secret to cleaning</header>
           <p className='p-text'>Mumblecore 90's enamel pin deep v irony try-hard slow-carb adaptogen. Butcher irony cred, thundercats flannel hexagon drinking vinegar.
           </p>
-          <p>Read More</p>
+          <p className='mt-4 underline'>Read More</p>
         </div>
         
         </article>

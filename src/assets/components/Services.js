@@ -3,19 +3,30 @@ import bottle from '../images/cleaning-icons_bottles-and-bucket.svg'
 import kitchen from '../images/cleaning-icons_kitchen.svg'
 import toilet from '../images/cleaning-icons_toilet.svg'
 import stars from '../images/cleaning-icons_stars.svg'
+import wave from '../images/wave.svg'
+import waveFlipped from '../images/wave-flipped.svg'
+
+import './Service.css'
 
 const Services = () => {
   return (
-    <section className='bg-primary text-white container text-center'>
+    <div className=''>
+      <div className='static height-svg'>
+      <img className='relative -top-10 svg-wave' src={wave} />
+      </div>
+      <section className='bg-primary text-white text-center'>
+      
+      <div className='container'>
+      
        <div className=''>
         <h2 className='h2-title'>Weekly and Bi-weekly Cleaning Services</h2>
       </div>
-      <section className='mt-12'>
+      <section className='mt-12'>``
         <article className='service-card'>
           <div className='flex items-center'>
             <div className='hr-rule' />
             <figure className='icon-container'>
-              <img className='h-20 absolute top-2 left-2' src={bottle} alt='main cleaning servies' />
+              <img className='h-20 absolute top-2 left-2' src={bottle} alt='main cle`aning servies' />
             </figure>
             <div className='hr-rule' />
           </div>
@@ -71,7 +82,14 @@ const Services = () => {
           </ul>
         </article>
       </section>
+      </div>
+      
     </section>
+    <img className='' src={waveFlipped} />
+      
+      
+    </div>
+    
   )
 }
 
