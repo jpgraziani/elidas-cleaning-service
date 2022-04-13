@@ -1,14 +1,3 @@
-// import React from 'react'
-
-// const SendMesage = () => {
-//   return (
-//     <div className='image_Bkg bg-message-bkg h-screen bg-cover bg-no-repeat bg-center'>
-      
-//     </div>
-//   )
-// }
-
-// export default SendMesage
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -17,16 +6,16 @@ function MessageForm() {
   const [state, handleSubmit] = useForm("mnqwqyap");
   if (state.succeeded) {
       return (
-        <section className='grid-cols-1'>
+        <section className='flex'>
           <p className='form-sent-response section-sub-title'>Thank you for contacting us!</p>
         </section>
       );
   }
   return (
       <form onSubmit={handleSubmit} 
-        className='bg-indigo-50 flex flex-col pb-4 items-center'>
-          <h2>SEND US A MESSAGE</h2>
-        <section className='flex flex-col container w-screen'>
+        className='bg-indigo-50 flex flex-col items-center container'>
+          <h2 className='h2-title text-primary'>How can we help?</h2>
+        <section className='flex flex-col container'>
           <label 
             className=''
             htmlFor="email" 
@@ -34,7 +23,7 @@ function MessageForm() {
             Email Address
           </label>
           <input
-            className='mb-4'
+            className='mb-4 py-4'
             aria-placeholder='enter your email'
             id="email"
             type="email" 
@@ -56,7 +45,7 @@ function MessageForm() {
             id="message"
             name="message"
             placeholder="How can we help?"
-            rows="6" 
+            rows="8" 
             required
           />
           <ValidationError 
@@ -65,7 +54,7 @@ function MessageForm() {
             errors={state.errors}
           />
       </section>
-      <button aria-label='center justified' className='border-black border-2 rounded-full w-6/12 py-4'  type="submit" disabled={state.submitting}>
+      <button aria-label='center justified' className='btn'  type="submit" disabled={state.submitting}>
         Send
       </button>
     </form>
@@ -73,7 +62,7 @@ function MessageForm() {
 }
 const FormSpree = () => {
   return (
-    <section>
+    <section className=''>
       <MessageForm />
     </section>
   );
