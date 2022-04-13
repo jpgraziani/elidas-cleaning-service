@@ -26,5 +26,8 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
+    {
+      pathPrefix: "/elidas-cleaning-service",
+    }
   ],
 }
