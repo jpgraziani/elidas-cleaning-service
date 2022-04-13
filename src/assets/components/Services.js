@@ -3,25 +3,25 @@ import bottle from '../images/cleaning-icons_bottles-and-bucket.svg'
 import kitchen from '../images/cleaning-icons_kitchen.svg'
 import toilet from '../images/cleaning-icons_toilet.svg'
 import stars from '../images/cleaning-icons_stars.svg'
-import wave from '../images/wave.svg'
-import waveFlipped from '../images/wave-flipped.svg'
+// import wave from '../images/wave.svg'
+// import waveFlipped from '../images/wave-flipped.svg'
 
 import './Service.css'
 
 const Services = () => {
   return (
-    <div className=''>
-      <div className='static height-svg'>
-      <img className='relative -top-10 svg-wave' src={wave} />
-      </div>
-      <section className='bg-primary text-white text-center'>
+    <section className='bg-primary'>
+      {/* <div className='static height-svg'>
+      <img className='relative -top-10 svg-wave w-screen' src={wave} />
+      </div> */}
+      <section className='services-provided max-w-5xl text-white text-center z-10 flex justify-center items-center'>
       
       <div className='container'>
       
        <div className=''>
-        <h2 className='h2-title'>Weekly and Bi-weekly Cleaning Services</h2>
+        <h2 className='h2-title'><span className='line-break-title'>Weekly and</span> Bi-weekly Cleaning Services</h2>
       </div>
-      <section className='mt-12'>``
+      <section className='card-container mt-12 flex flex-col justify-center sm:flex sm:flex-row sm:flex-wrap'>
         <article className='service-card'>
           <div className='flex items-center'>
             <div className='hr-rule' />
@@ -36,7 +36,7 @@ const Services = () => {
           </header>
           <p className='p-text'>Our general regular cleaning includes the bathrooms, the kitchen, the bedrooms, the living room and the office (den). Additionally dust the furniture, apply polish, dust the TVs, computers, and vacuum/mop floors.</p>
         </article>
-        <article className='service-card  mt-12'>
+        <article className='service-card mt-12'>
           <div className='flex items-center'>
             <div className='hr-rule' />
             <figure className='icon-container'>
@@ -85,10 +85,10 @@ const Services = () => {
       </div>
       
     </section>
-    <img className='' src={waveFlipped} />
+    {/* <img className='' src={waveFlipped} /> */}
       
       
-    </div>
+    </section>
     
   )
 }

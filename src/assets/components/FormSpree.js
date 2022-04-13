@@ -13,7 +13,7 @@ function MessageForm() {
   }
   return (
       <form onSubmit={handleSubmit} 
-        className='bg-indigo-50 flex flex-col items-center container w-screen'>
+        className='bg-indigo-50 flex flex-col items-center container'>
           <h2 className='h2-title text-primary'>How can we help?</h2>
         <section className='flex flex-col container'>
           <label 

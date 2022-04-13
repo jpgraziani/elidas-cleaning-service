@@ -1,3 +1,8 @@
+.hero, .whyUs{
+  margin: 0 auto;
+}
+
+.whyUs
 
 /*#########*/
 /* Navbar */
@@ -202,4 +207,41 @@
   background-image: url('../assets/images/dot-seamless-pattern.svg');
 }
 
+.spin-badge {
+  animation: spin 20s linear infinite;
+  -webkit-animation: spin 20s linear infinite;
+}
 
+.message-container{
+  margin: 0 auto;
+}
+
+.message-grid{
+  justify-content: end;
+}
+
+.services-provided {
+  margin: 0 auto;
+}
+
+.card-container {
+  align-items: baseline;
+}
+
+.line-break-title::after {
+  content: "\a";
+    white-space: pre;
+}
+
+.badge {
+  animation: spin 20s linear infinite;
+  -webkit-animation: spin 20s linear infinite;
+}
+
+.footer-container {
+  margin: 0 auto;
+}
+
+.copyright {
+  flex-basis: 100vw;
+}
